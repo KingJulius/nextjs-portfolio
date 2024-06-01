@@ -62,3 +62,51 @@ export const gridItems = [
   },
 ];
 
+export const projects = [
+  {
+    id: 1,
+    title: "AI Generated Images Gallery",
+    des: "An AI image generated gallery using MERN stack.",
+    img: "/ai-gallery.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
+    link: "https://github.com/KingJulius/ai-img-gallery-frontend",
+    liveLink: "https://ai-img-app-zemc.onrender.com/",
+  },
+  {
+    id: 2,
+    title: "Expense Tracker",
+    des: "A Web App Developed to keep track of expenses.",
+    img: "/expensetracker.png",
+    iconLists: ["/re.svg", "/js.svg"],
+    link: "https://github.com/KingJulius/expense-tracker",
+    liveLink: "",
+  },
+  {
+    id: 3,
+    title: "Food Dish Classifier",
+    des: "Website that allows users to upload image of their dish and it returns the label along with the confidence score.",
+    img: "/foodclassifier.png",
+    iconLists: ["/py.svg", "/tf.svg", "/re.svg", "/aws.svg"],
+    link: "https://github.com/KingJulius/Predict-that-Dish",
+    liveLink: "",
+  },
+  {
+    id: 4,
+    title: "Minesweeper Java Application",
+    des: "A GUI game using a client/server architecture to load and save an instance of the game and to display the top scores",
+    img: "/minesweeper.png",
+    iconLists: ["/java.svg", "/sql.svg"],
+    link: "https://github.com/KingJulius/Minesweeper",
+    liveLink: "",
+  },
+  {
+    id: 5,
+    title: "Digit Classification using Real-Time Image Feed",
+    des: "Digit Classification using Real-Time Image Feed.",
+    img: "/digitclassifier.png",
+    iconLists: ["/py.svg", "/tf.svg"],
+    link: "https://github.com/KingJulius/Real-Time-Digit-Classification",
+    liveLink: "",
+  },
+];
+
